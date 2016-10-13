@@ -21,7 +21,7 @@ Issuing tenders and bills, based on materials and items of work.
 * `php artisan migrate --seed` to create and populate tables
 * `php artisan serve` to start the app on http://localhost:8000/
 
-##" Running the Application ###
+### Running the Application ###
 
 * `You can access the application from http://localhost:8000`
 * `Email: admin@admin.com`
