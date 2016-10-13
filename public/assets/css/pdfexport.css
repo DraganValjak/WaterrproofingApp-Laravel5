@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016.04.13, 09:27:26
+    Author     : Dragan Valjak
+*/
+
+
+body {
+  background: rgb(204,204,204); 
+}
+#target{
+    color:black;
+    font-family: sans-serif;
+}
+
+
+
+page {
+  background: white;
+  color:black;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+  width: 21cm;
+ // height: 29.7cm; 
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="portrait"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="portrait"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media all{
+    .page-break{
+      display:none;
+      }
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+  .page-break{
+      display: block;
+      page-break-before:always;
+      }
+}
+
+
+
+
+
+#target{
+    padding: 2px 2px;
+}
+
+#target img{
+    width:100%;
+    margin-bottom: 20px;
+}
+.head-center{
+    text-align: center;
+    color:black;    
+}
+.head-center h1{
+  font-size:26px; 
+  font-weight: 400;
+  margin-top: 5px;
+}
+.head-center h2, .head-right h2, .head-left h2{
+  font-size:14px;   
+  font-weight: 400;
+  margin-top: 0;
+}
+.head-center h2 span{
+    font-size:16px;   
+  font-weight: 400;
+}
+
+.invoice h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p.line{
+    border-bottom: 1px solid black;
+    width: 130px;
+    text-align: center;
+}
+p.no-line{
+    text-align: center;
+}
+
+table.stavkamaterijal{
+    width: 100%;
+    font-family: sans-serif;
+    font-size:10px;
+}

@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016.03.23, 17:32:26
+    Author     : Gec
+*/
+
+button.btn{
+    margin-left:15px !important;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 70px;
+  line-height: 20px;
+  padding: 0 15px;
+}
+
+.navbar-nav > li > a {
+  line-height: 40px;
+  font-size:16px;
+}
