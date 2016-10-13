@@ -13,7 +13,7 @@ Issuing tenders and bills, based on materials and items of work.
 
 ### Installation ###
 
-* `git@github.com:DraganValjak/Waterrproofing-Laravel.git projectname`
+* `git clone  https://github.com/DraganValjak/WaterrproofingApp-Laravel5.git projectname`
 * `cd projectname`
 * `composer install`
 * `php artisan key:generate`
@@ -23,7 +23,8 @@ Issuing tenders and bills, based on materials and items of work.
 
 ## Running the Application
 
-You can access the application from http://localhost:8000.
-Email: admin@admin.com
-Password: 1234
+*You can access the application from http://localhost:8000.
+*Email: admin@admin.com
+*Password: 1234
+
 
