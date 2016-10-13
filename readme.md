@@ -16,8 +16,13 @@ Issuing tenders and bills, based on materials and items of work.
 * `git clone  https://github.com/DraganValjak/WaterrproofingApp-Laravel5.git projectname`
 * `cd projectname`
 * `composer install`
+* `cp .env.example .env` generate .env file
+* `Change .env file`
+         DB_HOST=localhost
+         DB_DATABASE=databasename
+         DB_USERNAME=youru-sername
+         DB_PASSWORD=your-password
 * `php artisan key:generate`
-* Create a new database, we suggest to use MySQL `create database izracuntroskova`.
 * `php artisan migrate --seed` to create and populate tables
 * `php artisan serve` to start the app on http://localhost:8000/
 
